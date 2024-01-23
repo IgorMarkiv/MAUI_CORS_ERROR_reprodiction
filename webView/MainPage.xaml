@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="webView.MainPage">
+
+    <StackLayout>
+        <!-- This is the container for all your elements -->
+        <!-- Existing UI elements -->
+
+        <WebView x:Name="MyWebView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+
+        <!-- Buttons are now within the StackLayout container -->
+        <Button Text="Load URL 1" Clicked="OnButtonClicked" CommandParameter="https://www.booking.com/" />
+        <Button Text="Load URL 2" Clicked="OnButtonClicked" CommandParameter="https://www.booking.com/" />
+        <Button Text="Load URL 3" Clicked="OnButtonClicked" CommandParameter="https://www.booking.com/" />
+        <Button Text="Load URL 4" Clicked="OnButtonClicked" CommandParameter="https://www.booking.com/" />
+        <Button Text="Load URL 5" Clicked="OnButtonClicked" CommandParameter="https://www.booking.com/" />
+    </StackLayout>
+
+</ContentPage>
